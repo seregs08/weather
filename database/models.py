@@ -27,7 +27,7 @@ class WeatherReport(Base):
     temp = Column(Integer, nullable=False)
     feels_like = Column(Integer, nullable=False)
     wind_speed = Column(Integer, nullable=False)
-    pressure_nm = Column(Integer, nullable=False)
+    pressure_mm = Column(Integer, nullable=False)
     city = Column(String, nullable=False)
     #book_id = Column(Integer, ForeignKey('books.id'), nullable=False)
     #user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
